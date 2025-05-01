@@ -118,23 +118,3 @@ The best way to understand this implementation is through the test cases in `Rea
 ```bash
 mvn test
 ```
-
-## Future Enhancements
-
-1. **Hinted Handoff**
-   - Store writes for temporarily unavailable nodes
-   - Deliver writes when nodes become available
-
-2. **Anti-Entropy Repair**
-   - Background repair process
-   - Merkle trees for efficient comparison
-
-3. **Monitoring and Metrics**
-   - Performance metrics collection
-   - Health monitoring
-   - Alerting system
-
-4. **More Sophisticated Quorum Strategies**
-   - Dynamic quorum adjustment
-   - Region-aware quorums
-   - Weighted quorums 
